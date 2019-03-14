@@ -1,0 +1,14 @@
+body {
+    background-image: url("black-background.webp");
+}
+.nav h1{
+    color: white;
+    float: left;
+}
+.links {
+    float: right;
+}
+.links a {
+    text-decoration: none;
+    color: white;
+}

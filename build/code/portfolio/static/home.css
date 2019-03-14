@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+    color: darkgreen;
+} 
+.title {
+    display: inline-block;
+    clear: both;
+    color: whitesmoke;
+    width: 80%;
+    margin: 100px 10% 0 10%;
+}
+.title h1 {
+    margin: 100px 0 0 0;
+    font-size: 62px;
+}
+.title p {
+    margin: 0;
+    font-size: 28px;
+}
+
+.services {
+    display: inline-block;
+    color: whitesmoke;
+    width: 80%;
+    margin: 40px 10% 0 10%;
+}
+.services h2 {
+    margin: 0;
+    font-size: 62px;
+    font-size: 62px;
+}
+
+.about {
+    display: inline-block;
+    color: whitesmoke;
+    width: 80%;
+    margin: 40px 10% 0 10%;
+}
+.about h2 {
+    margin: 0;
+    font-size: 62px;
+    font-size: 62px;
+}

@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    color: darkgreen;
+} 
+.content {
+    display: inline-block;
+    clear: both;
+    color: whitesmoke;
+    width: 80%;
+    margin: 100px 10% 0 10%;
+}
+.content h1 {
+    margin: 100px 0 0 0;
+    font-size: 62px;
+}
+.contet p {
+    margin: 0;
+    font-size: 28px;
+}

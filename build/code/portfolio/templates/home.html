@@ -1,0 +1,38 @@
+{% extends "template.html" %}
+
+{% block header %}Home{% endblock %}
+
+{% block head %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'home.css' %}">
+{% endblock %}
+
+
+{% block body %}
+<div class="title">
+    <h1>A Security Engineer and Developer for contract</h1>
+    <p>I create, assess, and secure infrastructure and web applications for small/medium businesses.  I've previously worked for a variety of government military branches and startups.</p>
+    <p><a href="{% url 'contact' %}">Contact me</a> to get started.</p>
+</div>
+
+<div class="services">
+    <h2>Services</h2>
+    <h3>Web Application Security</h3>
+    <p>Have your web application or API tested in a variety of forms - DAST, SAST, and penetration testing.  I will walk you through existing issues and empower developers to prevent them going forward.</p>
+    <h3>Docker Container Security</h3>
+    <p>Docker offers nice functionality and features, but can be easily misconfigured.  I will analyze OS vulnerabilities, package vulnerabilities, permission misconfiguration, secret storage, network communication, logging, monitoring, and much more.
+    <h3>Network/Infrastructure Security</h3>
+    <p>I will analyze your entire network architecture for flaws or conduct a full penetration test on your business.  Misconfiguration of security gateways, mail servers, and insecure data storage can lead to loss of revenue.</p>
+    <a href="{% url 'services' %}">Learn More</a>
+</div>
+
+<div class="about">
+    <h2>About me</h2>
+    <h3>Credentials</h3>
+    <p>I hold the following certifications that demonstrate my technical abilities: CISSP, OSCP, Security+, and Docker Certified Associate.</p>
+    <h3>Sites</h3>
+    <p>You can find my resume, work history, education, projects, and more on <a href="https://www.linkedin.com/in/simon-owens-206879126">LinkedIn</a> and <a href="https://github.com/so87">Github</a>.</p>
+    <a href="{% url 'about' %}">Learn More</a>
+</div>
+
+{% endblock %}

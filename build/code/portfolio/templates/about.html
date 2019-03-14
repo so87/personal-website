@@ -1,0 +1,23 @@
+{% extends "template.html" %}
+
+{% block header %}About{% endblock %}
+
+{% block head %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'about.css' %}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1>Summary</h1>
+    <p>I am a Security Engineer currently living in Indianapolis with my Fiance Elizabeth.  I help businesses on the side because I really enjoy doing security and the extra income is nice.  I hold the following certifications that demonstrate my technical abilities: CISSP, OSCP, Security+, and Docker Certified Associate.  You can find my work history, education, projects, and more on <a href="https://www.linkedin.com/in/simon-owens-206879126">LinkedIn</a> and <a href="https://github.com/so87">Github</a>.</p>
+
+    <h1>BIO</h1>
+    <p>I love to do things.  I used to not enjoy learning or working on University CS projects until I become more familiar with security.  Working on security challenges was just like solving puzzles for me - this got me back into learning and reading so I could solve more challenges.  I become more familiar with web application, which are extremely visually rewarding unlike writing C code, which sparked my enjoyment for programming.  After years of practice, I've come to appreciate solving security/architecture issues to help better protect people.  I enjoy working and doing capture the flag challenges (less than 50 hours a week), and spend the rest of the week with family, playing basketball, watching tv, reading, and watching starcraft 2.  I hope to be helpful, loving, patient, and healthy for as long as I live.</p>
+
+    <h1>Resume</h1>
+    <p> Below is my resume.  If you have anymore questions you can email me at: simonowens157@gmail.com</p>
+    <embed src="{% static 'owens2019_resume.pdf' %}" width="850" height="1150" />
+</div>
+
+{% endblock %}

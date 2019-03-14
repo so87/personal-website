@@ -1,4 +1,6 @@
 .sonarlint
 .vscode
 .scanner
+.idea
+*.pyc
 build/code/A_MainSite/settings.py
